@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Portfólio Criativo</title>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;700&display=swap" rel="stylesheet">
+  <link href="styles/default.css" rel="stylesheet" />
+</head> 
+<body>
+
+<header>
+  <h1>SeuNome.dev</h1>
+  <nav>
+    <a href="#sobre">Sobre</a>
+    <a href="#projetos">Projetos</a>
+  </nav>
+</header>
+
+<section class="hero">
+  <div class="blob blob1"></div>
+  <div class="blob blob2"></div>
+
+  <h2>Construindo experiências incríveis</h2>
+  <p>Frontend | Backend | Criatividade & Performance</p>
+  <button class="btn" onclick="scrollToSection()">Ver Projetos</button>
+</section>
+
+<div class="container">
+  <section id="sobre" class="sobre">
+    <img src="https://via.placeholder.com/400" alt="Foto">
+    <div>
+      <h2>Sobre Mim</h2>
+      <p>Sou desenvolvedora apaixonada por criar interfaces bonitas, funcionais e experiências digitais que fazem a diferença. Trabalho com tecnologias modernas focando em performance e design.</p>
+    </div>
+  </section>
+
+  <section id="projetos">
+    <h2 style="margin-bottom:20px;">Projetos</h2>
+    <div class="projetos" id="lista-projetos"></div>
+  </section>
+</div>
+
+<footer>
+  <p>© 2026 - Portfólio</p>
+</footer>
+
+<script src="scripts/default.js"></script>
+
+</body>
+</html>
